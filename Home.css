@@ -1,0 +1,57 @@
+﻿@media screen and (max-width: 320px)
+{
+    .intro_pg {display: block;
+    }
+    .intro_pg .standard=paragraph {width: 200px;}
+}
+
+@media screen and (min-width: 481px)
+{
+    .intro_pg {display: inline-block;}
+    .intro_pg .standard-paragraph {width: 400px}
+}
+
+body{
+    font-family: Questrial, Arial, sans-serif;
+    max-width:700px
+}
+
+p {
+    font:italic;
+}
+
+.button1 {
+    width: 250px;
+    border: 1px solid black;
+    margin: 20px 20px 20px 20px;
+}
+
+.button2 {
+    width: 250px;
+    border: 1px solid black;
+    margin: 20px 20px 20px 20px;
+}
+
+.button3 {
+    width: 250px;
+    border: 1px solid black;
+    margin: 20px 20px 20px 20px;
+}
+
+.home {
+    height: 200px;
+    background-color: lightblue;
+}
+
+footer {
+    height: 100px;
+    background-color: lightblue;
+}
+
+.login{
+    height: 250px;
+}
+
+.create_account{
+    height:250px;
+}

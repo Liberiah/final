@@ -1,0 +1,52 @@
+﻿@model FinalProject.Models.HomeViewModel
+
+
+    <html>
+
+    <head>
+        <link href="~/Styles/Home.css" rel="stylesheet" />
+        <title>Final Project</title>
+    </head>
+    <body>
+        <script src="~/Scripts/jquery-2.1.1.min.js"></script>
+        <script src="~/Scripts/jquery-ui.min.js"></script>
+        <script src="~/Scripts/Home.js"></script>
+       <!--Header -->
+         <header>
+            <h1>Tri-C's New Log-In Page</h1>
+        </header>
+
+        <div class="home">
+
+            <p>Place Content Info Here</p>
+
+        </div>
+
+       <div class="login">
+      
+            <h3>Please enter your username and password below</h3>
+            
+            Username<input type="text" id="username"/><br>
+            Password<input type="text" id="password"/><br>
+            <div class="button1">Login</div> <br />
+
+       </div>
+
+        <div class="create_account">
+            <h3>To create a new account, enter a username and password below.</h3>
+            Username(must be atleast 6 characters)<input type="text" id="username1" /><br>
+            Password<input type="text" id="password1" /><br>
+            Email<input type="text" id="emailadd" /><br>
+            Re-enter Email<input type="text" id="emailcon" /><br>
+            <div class="button2">Create Account</div>
+
+            <div id="message_response"></div>
+        </div>
+
+        <footer>
+            <h2>Place footer information here</h2>
+        </footer>
+
+    </body>
+
+</html>
